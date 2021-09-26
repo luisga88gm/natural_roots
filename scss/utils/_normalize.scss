@@ -1,0 +1,17 @@
+/* HTML Configurations */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../multimedia/fondoHeader.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}

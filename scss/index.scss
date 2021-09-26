@@ -1,0 +1,18 @@
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap');
+
+/* UTILS */
+@import "./utils/globals";
+@import "./utils/normalize";
+@import "./utils/variables";
+
+/* PARTIALS */
+@import "./partials/footer";
+@import "./partials/header";
+
+/* PAGES */
+@import "./pages/Contacto";
+@import "./pages/Home";
+@import "./pages/Productos";
+@import "./pages/Promociones";
+@import "./pages/QuienesSomos";

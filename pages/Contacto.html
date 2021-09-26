@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="MUEBLES, MADERA, CONTACTO, PERFIL, TELEFONO">
+    <title>Contacto | NATURAL ROOTS</title>
+    <meta name="description" content="Contactate con nosotros: Asesoramiento, cotizaciones y logística de entrega. Directo de fábrica. Lunes a Viernes de 8 a 18hs.">
+    <link rel="shortcut icon" href="../multimedia/NaturalRootsFavIcon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header>
+        <!--Logo y menú de navegación-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-grey">
+        <div class="container-fluid">
+            <picture class="logo">
+                <img src="../multimedia/logo.svg" alt="El logo de Natural Roots">
+            </picture>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="navbar-nav__item nav-item">
+                <a class="nav-link" href="../Index.html">Home</a>
+                </li>
+                <li class="navbar-nav__item nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="Productos.html">Mesitas</a></li>
+                    <li><a class="dropdown-item" href="Productos.html">Banquetas</a></li>
+                    <li><a class="dropdown-item" href="Productos.html">Sillas</a></li>
+                </ul>
+                </li>
+                <li class="navbar-nav__item nav-item">
+                    <a class="nav-link" href="Promociones.html">Promociones</a>
+                </li>
+                <li class="navbar-nav__item nav-item">
+                    <a class="nav-link" href="QuienesSomos.html">Quienes Somos</a>
+                </li>
+                <li class="navbar-nav__item nav-item">
+                    <a class="nav-link active" aria-current="page" href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+    </header>
+<!--Cuerpo principal Contacto-->
+    <main class="container">
+        <h1 class="TituloSecciones">CONTACTANOS!</h1>
+        <div class="lead">
+            <strong>Por favor, dejanos tus datos para contactarte.</strong>
+            <div>
+                <strong>O bien, te dejamos nuestro Whatsapp para que nos escribas por cualquier consulta: 11-2386-7530</strong>
+            </div>
+        </div>
+        <br>
+        <form>   
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"> <strong>Correo</strong></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"> <strong>Comentarios</strong></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <label for="exampleFormControlSelect" class="form-label"> <strong>¿Ya sos cliente?</strong></label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccione</option>
+                <option value="1">Si</option>
+                <option value="2">No</option>
+            </select>
+            <br>
+            <div class="lead">
+                <strong>A continuación, dejanos tu selección de preferencia</strong>
+            </div>     
+            <br>
+            <div>
+                <strong>Estoy interesado en:</strong>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                Mesas
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                Sillas
+                </label>
+            </div>
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                Dressoirs
+                </label>
+            </div>
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                Racks
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">ENVIAR</button>
+        </form>
+    </main>
+<!-- Footer de mi web -->
+    <footer class="TextoFooter">
+        <div>
+            <strong>© Copyright NATURAL ROOTS 2021 - Todos los derechos reservados</strong>
+        </div>
+        <div>
+            Av. Álvarez Thomas 7432 - CABA // 4849-5021
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

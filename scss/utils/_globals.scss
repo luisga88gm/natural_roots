@@ -1,0 +1,74 @@
+/* Main Configurations */
+.grid {
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 20% 80%;
+    grid-template-areas: "titulo titulo" "area1 area2";
+    grid-row-gap: 10px;
+}
+
+.TituloPrincipal {
+    text-align: left;
+    font-size: 30px;
+    width: max-content;
+    grid-area: titulo titulo;
+
+}
+
+.bloque1 {
+    grid-area: area1;
+    width: 100%;
+    background: rgba(45, 45, 45, 0.7);
+    border: 2px solid black;
+    padding: 1%;
+    border-radius: 2%;
+}
+
+.bloque2 {
+    grid-area: area2;
+    width: 100%;
+    background: rgba(45, 45, 45, 0.7);
+    border: 2px solid black;
+    padding: 1%;
+    border-radius: 2%;
+}
+
+.content {
+    width: 95%;
+    background-image:linear-gradient(to bottom,gray,lightgrey);
+    border: 1px solid black;
+    margin: 2%;
+    margin-bottom: 5%;
+}
+
+
+/* Other Configurations */
+ul {
+    list-style-type: none;
+    a {
+        text-decoration: none;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+.TituloSecciones {
+    text-align: center;
+}
+
+.TituloIntermedio {
+    color: midnightblue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.carousel-item {
+    max-width: 100%;
+    height: 50%;
+}
