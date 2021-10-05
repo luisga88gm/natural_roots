@@ -1,0 +1,31 @@
+.row {
+    
+    .bloque1 {
+        grid-area: area1;
+        width: 100%;
+        background: rgba(45, 45, 45, 0.7);
+        border: 2px solid black;
+        padding: 1%;
+        border-radius: 2%;
+    }
+
+    .texto_blanco  {
+        color: white;
+        margin-left: 5px;
+
+    }
+
+    .bloque2 {
+        grid-area: area2;
+        width: 100%;
+        background: rgba(45, 45, 45, 0.7);
+        border: 2px solid black;
+        padding: 1%;
+        border-radius: 2%;
+    }
+
+    .carousel-inner {      
+        max-width: 100%;
+        height: 50%;
+    }
+}

@@ -3,16 +3,15 @@ header {
     height: auto;
 }
 
-.navegacion {
-    padding: 2rem;
-    font-size: 0;
+.container-fluid {
+    padding: 1rem;
+    font-size: 12px;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 
     .logo {
         img {
+            margin-right: 40px;
+            margin-left: 5px;
             max-width: 100%;
             max-height: 60px;
         }

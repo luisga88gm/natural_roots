@@ -8,6 +8,7 @@
     <title>Home | NATURAL ROOTS</title>
     <meta name="description" content="Fábrica de muebles de diseño, a medida y estándares. Trabajos en todo tipo de maderas de alta calidad y terminación. Directo de fábrica.">
     <link rel="shortcut icon" href="./multimedia/NaturalRootsFavIcon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
@@ -56,11 +57,29 @@
         <h1 class="TituloPrincipal">Bienvenido a Natural Roots <small class="text-muted">Donde diseñamos tus muebles a medida</small>
         </h1>
         <div class="row">
+            <div class="col-md-4 col-xs-8">
+                <img src="./multimedia/silla1.jpg" alt="Silla 1">
+                <div>
+                  <p>SILLA 1</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-8">
+                <img src="./multimedia/silla2.jpg" alt="Silla 2">
+                <div>
+                    <p>SILLA 2</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-8">
+                <img src="./multimedia/silla3.jpg" alt="Silla 3">
+                <div>
+                    <p>SILLA 3</p>
+                </div>
+            </div>
             <div class="col-md-8 col-xs-8">
                 <section class="bloque1 lead">
                     <h2 class="display-8">¡Nuevos Ingresos!</h2>
-                    <div>Llega la primavera, y con ella llegaron las nuevas mesitas</div>
-                    <div>Tenemos para vos, los últimos productos de nuestra fábrica. Ya podés encontrarlos en la sección PRODUCTOS. Además, te dejamos los destacados del mes:</div>
+                    <div class="texto_blanco">Llega la primavera, y con ella llegaron las nuevas mesitas</div>
+                    <div class="texto_blanco">Tenemos para vos, los últimos productos de nuestra fábrica. Ya podés encontrarlos en la sección PRODUCTOS. Además, te dejamos los destacados del mes:</div>
                     <div class="bloque1__item content">  
                         <h3 class="display-8">Mesa Ratona "Positano"</h3>
                         <div>Desde lo más autóctono de Sicilia, te traemos este modelo. Tapa de mesa en MDF 18mm enchapado en paraiso con regrueso de 36mm. Base estructural en madera maciza de paraiso sustentable tipo finger.</div>
@@ -71,14 +90,26 @@
                     </div>
                     <div class="bloque1__item content">
                         <h2 class="display-8">Planos Descargables</h2>
+                        <a href="www.google.com" download>
+                            <img src="./multimedia/planos.png" alt="Plano 1" width="26" height="35.5">
+                          </a>
+                          <a href="www.google.com" download>
+                            <img src="./multimedia/planos.png" alt="Plano 2" width="26" height="35.5">
+                          </a>
+                          <a href="www.google.com" download>
+                            <img src="./multimedia/planos.png" alt="Plano 3" width="26" height="35.5">
+                          </a>
+                          <a href="www.google.com" download>
+                            <img src="./multimedia/planos.png" alt="Plano 4" width="26" height="35.5">
+                          </a>
                     </div>
                 </section>
             </div>
             <div class="col-md-4 col-xs-4">
                 <aside class="bloque2 lead">
                     <h2 class="display-8">Consejos</h2>
-                    <div>Te dejamos algunos consejos importantes para el cuidado de nuestros productos, el armado y la utilización de los mismos.</div>
-                    <div> Nuestros expertos, siempre están listos para ayudarte.Podes contactarnos para mayor información.</div>
+                    <div class="texto_blanco">Te dejamos algunos consejos importantes para el cuidado de nuestros productos, el armado y la utilización de los mismos.</div>
+                    <div class="texto_blanco"> Nuestros expertos, siempre están listos para ayudarte. Podes contactarnos para mayor información.</div>
                     <div class="bloque2__item content">
                         <h3 class="display-8">Cuidado</h3>
                         <div>Para el cuidado de tus muebles, siempre utilizá paños secos para limpiarlos. No utilices productos abrasivos, que puedan dañar superficialmente los mismos.</div>
@@ -89,16 +120,50 @@
                     </div>
                 </aside>
             </div>
-        </div>    
+        </div>
+        <div class="col-md-12 col-xs-12">
+            <div class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./multimedia/mesa1.jpg" class="d-block w-100" alt="Mesa 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./multimedia/mesa2.jpg" class="d-block w-100" alt="Mesa 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./multimedia/mesa3.jpg" class="d-block w-100" alt="Mesa 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./multimedia/rack1.jpg" class="d-block w-100" alt="Rack 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./multimedia/rack2.jpg" class="d-block w-100" alt="Rack 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./multimedia/rack3.jpg" class="d-block w-100" alt="Rack 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> 
     </Main>
 <!-- Footer de mi web -->
-    <footer class="TextoFooter">
-        <div>
-            <strong>© Copyright NATURAL ROOTS 2021 - Todos los derechos reservados</strong>
-        </div>
-        <div>
-            Av. Álvarez Thomas 7432 - CABA // 4849-5021
-        </div>
+    <footer>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+            <p class="TextoFooter">
+                <strong>© Copyright NATURAL ROOTS 2021 - Todos los derechos reservados</strong>
+            </p>
+            <p class="TextoFooter">
+                Av. Álvarez Thomas 7432 - CABA // 4849-5021</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>

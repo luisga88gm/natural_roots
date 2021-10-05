@@ -1,9 +1,46 @@
 /* Footer Configurations */
 footer {
+    margin-top: 20px;
     height: 15vh;
     width: 100%;
+
 }
 
 .TextoFooter {
     text-align: center;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 15px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+}
+
+.fa-facebook {
+    background: grey;
+    color: white;
+}
+
+.fa-youtube {
+    background: grey;
+    color: white;
+}
+  
+.fa-instagram {
+    background: grey;
+    color: white;
+}
+      
+.fa-pinterest {
+    background: grey;
+    color: white;
 }
