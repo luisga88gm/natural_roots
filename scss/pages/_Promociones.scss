@@ -1,34 +1,38 @@
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    font-size: 12.5px;
-    border: 1px solid black;
+.container {
 
-    th, td {
-        text-align: left;
-        padding: 8px;
-    }
-    
-    tr:nth-child(even) {
-        background-color: lightgrey;
-    }
-    .subtitle {
-        text-align: center;
-    }
-
-    .rows {
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        font-size: 12.5px;
         border: 1px solid black;
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: lightgrey;
+        }
+        .subtitle {
+            text-align: center;
+        }
+
+        .rows {
+            border: 1px solid black;
+        }
     }
-}
 
-.tarjetas {
-    width: auto;
-    max-height: 35px;
-    margin: 2px;
-    padding: 5px;
-}
+    .tarjetas {
+        width: auto;
+        max-height: 35px;
+        margin: 2px;
+        padding: 5px;
+    }
 
-.pagos {
-    font-size: 12.5px;
+    .pagos {
+        font-size: 12.5px;
+    }
+
 }
